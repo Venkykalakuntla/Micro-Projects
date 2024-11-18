@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    text-align: center;
+    height: 4rem;
+    font-size: 2rem;
+   line-height: 4rem;
+   color: white;
+   background-color: rgb(2, 2, 26);
+}
+.choices{
+    display: flex;
+ align-items: center;
+ justify-content: center; 
+ height: 16rem;
+ gap: 3rem;   
+}
+.choice{
+width: 8rem;
+height: 8rem;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+ color: white;
+ font-size: 1.5rem;
+ cursor: pointer;
+
+}
+.choice:hover{
+    opacity: 0.8;
+    border: 3px solid black;
+}
+.rock{
+    background-color: rgb(202, 96, 113) 
+}
+.paper{
+    background-color: rgb(206, 91, 206)
+}
+.scissor{
+    background-color: rgb(53, 178, 220)
+}
+.scores
+{
+    display: flex;
+    align-items: center;
+justify-content: center;
+gap: 4rem;
+}
+.userscore,.computerscore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center; 
+gap: 1rem;
+font-weight: 200;
+font-size: 1.3rem;
+}
+.uscore,.compscore{
+font-size: 2.3rem;
+}
+.message
+{
+    height: 7rem;
+    display: flex;
+    display: flex;
+    align-items: center;
+justify-content: center;
+font-size: 2rem;
+}
+.innermessage{
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(9, 9, 41); 
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+  .innermessage p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .newgame
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .newgamebtn{
+    color: white;
+    background-color:  rgb(9, 9, 41);
+    border-radius: 1rem;
+    width: 8rem;
+    height: 2.5rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
